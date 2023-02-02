@@ -42,7 +42,7 @@
         <div class="hidden lg:block">
           <a href="/add" class="inline-block bg-blue-500 hover:bg-blue-600 rounded-lg text-white px-6 py-2"><?php _e("Додати", "treba-wp"); ?></a>
         </div>
-        <div class="flex flex-col items-center lg:hidden text-sm text-gray-200 uppercase modal-js" data-modal="menu">
+        <div class="flex flex-col items-center lg:hidden text-sm text-gray-700 uppercase modal-js" data-modal="menu">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
           </svg>
