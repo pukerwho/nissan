@@ -18,11 +18,11 @@
           <?php _e('Категории', 'treba-wp'); ?>
         </div>
         <div>
-          <ul>
-            <li class="font-light mb-2"><a href=""></a></li>
-            <li class="font-light mb-2"><a href=""></a></li>
-            <li class="font-light mb-2"><a href=""></a></li>
-          </ul>
+          <?php wp_nav_menu([
+            'theme_location' => 'header',
+            'container' => 'div',
+            'menu_class' => 'flex flex-col'
+          ]); ?> 
         </div>
       </div>
 
@@ -31,11 +31,11 @@
           <?php _e('CMS', 'treba-wp'); ?>
         </div>
         <div>
-          <ul>
-            <li class="font-light mb-2"><a href=""></a></li>
-            <li class="font-light mb-2"><a href=""></a></li>
-            <li class="font-light mb-2"><a href=""></a></li>
-          </ul>
+          <?php wp_nav_menu([
+            'theme_location' => 'footer-cms',
+            'container' => 'div',
+            'menu_class' => 'flex flex-col'
+          ]); ?> 
         </div>
       </div>
 
