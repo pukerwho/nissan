@@ -50,7 +50,7 @@
             <?php get_template_part('template-parts/site-item'); ?>
           <?php endwhile; endif; wp_reset_postdata(); ?>
         </div>
-        <div class="flex justify-center">
+        <div class="flex justify-center mb-6">
           <a href="<?php echo get_post_type_archive_link('sites'); ?>" class="inline-block hover:bg-green-500 hover:text-white relative text-lg border-2 border-green-500 rounded-xl px-8 py-3"><?php _e("Більше сайтів", "treba-wp"); ?></a>
         </div>
       </div>

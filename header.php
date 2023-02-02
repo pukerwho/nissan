@@ -6,7 +6,8 @@
     if ( is_singular( 'sites' ) ) {
       $site_url = get_the_title();
       if (get_locale() === 'uk') {
-        $current_title = 'Повний аналіз сайту ' . $site_url . ': показники для SEO';
+        $current_title = 'Аудит сайту ' . $site_url . ': безкоштовний SEO аналіз';
+        $current_description = 'Аналіз сайту ' . $site_url . '. Перевірка показників: DR, TF, CF, PageRank та інші. Безкоштовно проаналізувати сайт.';
       } else {
         $current_title = 'Полный анализ сайта ' . $site_url . ': показатели для SEO';
       }
