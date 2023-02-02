@@ -26,6 +26,7 @@ $all_sites_args = array(
       <li class="text-lg mb-2"><a href="<?php echo get_page_url('page-opencart'); ?>">⚫ OpenCart</a></li>
       <li class="text-lg mb-2"><a href="<?php echo get_page_url('page-prestashop'); ?>">⚫ Prestashop</a></li>
       <li class="text-lg"><a href="<?php echo get_page_url('page-tilda'); ?>">⚫ Tilda</a></li>
+      <li class="text-lg"><a href="<?php echo get_page_url('page-horoshop'); ?>">⚫ Хорошоп</a></li>
     </ul>
   </div>
 </div>
