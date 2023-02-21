@@ -74,3 +74,24 @@ $all_sites_args = array(
     <?php endwhile; endif; wp_reset_postdata(); ?>
   </div>
 </div>
+
+<?php if ( is_home() ): ?>
+<div class="bg-white shadow-xl box mb-12">
+  <div class="flex items-center justify-center p-4 mb-4">
+    <div class="relative mr-2">
+      <div class="w-[20px] h-[20px] bg-green-400"></div>
+      <div class="w-[20px] h-[20px] absolute top-1 right-1 border-2 border-gray-900 rounded"></div>
+    </div>
+    <div class="text-2xl font-semibold"><?php _e("Зараз шукають", "treba-wp"); ?></div>
+  </div>
+  <div class="px-4 pb-4">
+    <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://webgolovolomki.com/">🟩 webgolovolomki.com</a></div>
+    <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://tarakan.org.ua/">🟩 tarakan.org.ua</a></div>
+    <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://s-cast.ua/">🟩 s-cast.ua</a></div>
+    <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://auto-future.land/">🟩 auto-future.land</a></div>
+    <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://treba-solutions.com/">🟩 treba-solutions.com</a></div>
+    <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://sdamkvartiry.com/">🟩 sdamkvartiry.com</a></div>
+    <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://priazovka.com/">🟩 priazovka.com</a></div>
+  </div>
+</div>
+<?php endif; ?>
