@@ -75,7 +75,7 @@ $all_sites_args = array(
   </div>
 </div>
 
-<?php if ( is_home() ): ?>
+
 <div class="bg-white shadow-xl box mb-12">
   <div class="flex items-center justify-center p-4 mb-4">
     <div class="relative mr-2">
@@ -85,13 +85,25 @@ $all_sites_args = array(
     <div class="text-2xl font-semibold"><?php _e("Зараз шукають", "treba-wp"); ?></div>
   </div>
   <div class="px-4 pb-4">
-    <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://webgolovolomki.com/">🟩 webgolovolomki.com</a></div>
-    <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://tarakan.org.ua/">🟩 tarakan.org.ua</a></div>
-    <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://s-cast.ua/">🟩 s-cast.ua</a></div>
-    <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://auto-future.land/">🟩 auto-future.land</a></div>
-    <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://treba-solutions.com/">🟩 treba-solutions.com</a></div>
-    <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://sdamkvartiry.com/">🟩 sdamkvartiry.com</a></div>
-    <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://priazovka.com/">🟩 priazovka.com</a></div>
+    <?php if ( is_home() ): ?>
+      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://webgolovolomki.com/">🟩 webgolovolomki.com</a></div>
+      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://tarakan.org.ua/">🟩 tarakan.org.ua</a></div>
+      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://s-cast.ua/">🟩 s-cast.ua</a></div>
+      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://auto-future.land/">🟩 auto-future.land</a></div>
+      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://treba-solutions.com/">🟩 treba-solutions.com</a></div>
+      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://sdamkvartiry.com/">🟩 sdamkvartiry.com</a></div>
+      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://priazovka.com/">🟩 priazovka.com</a></div>
+    <?php else: ?>
+      <?php 
+        $current_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+        $super_links = super_links($current_url);
+        foreach ($super_links as $super_link):
+      ?>
+        <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0">
+          🟩 <?php echo $super_link->top_links; ?>
+        </div>
+      <?php endforeach; ?>
+    <?php endif; ?>
   </div>
 </div>
-<?php endif; ?>
+
