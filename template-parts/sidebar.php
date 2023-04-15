@@ -92,6 +92,7 @@ $all_sites_args = array(
       <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://auto-future.land/">🟩 auto-future.land</a></div>
       <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://treba-solutions.com/">🟩 treba-solutions.com</a></div>
       <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://sdamkvartiry.com/">🟩 sdamkvartiry.com</a></div>
+      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://d-art.org.ua/">🟩 d-art.org.ua</a></div>
       <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://priazovka.com/">🟩 priazovka.com</a></div>
     <?php else: ?>
       <?php 
