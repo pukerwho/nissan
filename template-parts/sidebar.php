@@ -108,3 +108,22 @@ $all_sites_args = array(
   </div>
 </div>
 
+
+<div class="bg-white shadow-xl box mb-12">
+  <div class="flex items-center justify-center p-4 mb-4">
+    <div class="relative mr-2">
+      <div class="w-[20px] h-[20px] bg-emerald-500"></div>
+      <div class="w-[20px] h-[20px] absolute top-1 right-1 border-2 border-gray-900 rounded"></div>
+    </div>
+    <div class="text-2xl font-semibold"><?php _e("Цікаві статті", "treba-wp"); ?></div>
+  </div>
+  <div class="px-4 pb-4">
+    <div class="flex items-center">
+      <div class="mr-2">
+        <img src="https://www.nissan-ukraine.com/wp-content/uploads/2023/04/videonabljudenija.jpeg" class="w-[52px] min-w-[52px] h-[52px] min-h-[52px] object-cover rounded" loading="lazy" alt="Видеонаблюдение в частном доме">
+      </div>
+      <div><a href="https://icatalog.pro/12670-vazhnost-roli-videonabljudenija/" class="hover:text-blue-600">О важности роли видеонаблюдения в системе охраны частного дома</a></div>
+    </div>
+  </div>
+</div>
+
