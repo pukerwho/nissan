@@ -86,14 +86,15 @@ $all_sites_args = array(
   </div>
   <div class="px-4 pb-4">
     <?php if ( is_home() ): ?>
-      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://webgolovolomki.com/">🟩 webgolovolomki.com</a></div>
-      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://tarakan.org.ua/">🟩 tarakan.org.ua</a></div>
-      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://s-cast.ua/">🟩 s-cast.ua</a></div>
-      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://auto-future.land/">🟩 auto-future.land</a></div>
-      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://treba-solutions.com/">🟩 treba-solutions.com</a></div>
-      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://sdamkvartiry.com/">🟩 sdamkvartiry.com</a></div>
-      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://d-art.org.ua/">🟩 d-art.org.ua</a></div>
-      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0"><a href="https://priazovka.com/">🟩 priazovka.com</a></div>
+      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0">🟩 <a href="https://webgolovolomki.com/">webgolovolomki.com</a></div>
+      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0">🟩 <a href="https://tarakan.org.ua/">tarakan.org.ua</a></div>
+      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0">🟩 <a href="https://s-cast.ua/">s-cast.ua</a></div>
+      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0">🟩 <a href="https://auto-future.land/">auto-future.land</a></div>
+      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0">🟩 <a href="https://treba-solutions.com/">treba-solutions.com</a></div>
+      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0">🟩 <a href="https://sdamkvartiry.com/">sdamkvartiry.com</a></div>
+      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0">🟩 <a href="https://d-art.org.ua/">d-art.org.ua</a></div>
+      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0">🟩 <a href="https://priazovka.com/">priazovka.com</a></div>
+      <div class="text-lg border-b border-gray-200 last:border-transparent pb-2 mb-2 last:mb-0 last:pb-0">🟩 <a href="https://speakwell.ua/">speakwell.ua</a></div>
     <?php else: ?>
       <?php 
         $current_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
@@ -122,7 +123,7 @@ $all_sites_args = array(
       <div class="mr-2">
         <img src="https://www.nissan-ukraine.com/wp-content/uploads/2023/05/about-cctv.jpeg" class="w-[52px] min-w-[52px] h-[52px] min-h-[52px] object-cover rounded" loading="lazy" alt="Видеонаблюдение в частном доме">
       </div>
-      <div><a href="https://icatalog.pro/12977-about-cctv/" class="hover:text-blue-600">Почему система видеонаблюдения помогает повысить безопасность охраняемого объекта</a></div>
+      <div><a href="https://icatalog.pro/13154-ustanovka-videonabljudenija-ot-ohrannogo-agentstva-centr-v-odesse/" class="hover:text-blue-600">Установка видеонаблюдения от охранного агентства «Центр» в Одессе</a></div>
     </div>
   </div>
 </div>
