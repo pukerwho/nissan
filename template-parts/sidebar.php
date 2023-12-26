@@ -109,7 +109,7 @@ $all_sites_args = array(
 </div>
 
 
-<div class="bg-white shadow-xl box mb-12">
+<div class="hidden bg-white shadow-xl box mb-12">
   <div class="flex items-center justify-center p-4 mb-4">
     <div class="relative mr-2">
       <div class="w-[20px] h-[20px] bg-emerald-500"></div>
