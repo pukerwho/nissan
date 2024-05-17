@@ -11,6 +11,9 @@
           Наша команда намагається зібрати на цьому ресурсі всі вебсайти, які можуть в той чи іншій мірі цікавити користувача. Ми постійно допрацьовуєм функціонал і намагаємось додавати нові інструменти. 
         </div>
         <div class="text-lg font-semibold mb-6">Більше ніж <span class="text-yellow-400">1000</span> сайтів в каталоці</div>
+        <div class="mb-6">
+          <a href="https://sviato.top/"><img src="https://www.nissan-ukraine.com/wp-content/uploads/2024/05/sviato.jpeg" alt="Sviato.top" width="25"></a>
+        </div>
       </div>
 
       <div class="w-full lg:w-3/12 lg:px-8 mb-6 lg:mb-0">
